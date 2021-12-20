@@ -1,0 +1,27 @@
+{
+  "configurations" : [
+    {
+      "id" : "E3F30664-1456-430D-BF6F-0C451EF0EC2F",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "HomeScreen"
+      ],
+      "target" : {
+        "containerPath" : "container:LoginDemoRxRedux.xcodeproj",
+        "identifier" : "38176C252767970000EDFDA0",
+        "name" : "LoginDemoRxReduxUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
